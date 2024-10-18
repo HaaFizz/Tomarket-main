@@ -710,7 +710,7 @@ if __name__ == '__main__':
         account_files = [f for f in os.listdir() if f.startswith('accounts-') and f.endswith('.json')]
         account_files.sort(key=lambda x: int(re.findall(r'\d+', x)[0]))
         
-        tomarket.print_timestamp(f"{Fore.MAGENTA + Style.BRIGHT}[ Select an option ][Script By D4rkCipherX]{Style.RESET_ALL}")
+        tomarket.print_timestamp(f"{Fore.MAGENTA + Style.BRIGHT}[ Select an option ][Script By HaFiz x Arslan]{Style.RESET_ALL}")
         tomarket.print_timestamp(
             f"{Fore.MAGENTA + Style.BRIGHT}[ 1 ]{Style.RESET_ALL}"
             f"{Fore.WHITE + Style.BRIGHT} | {Style.RESET_ALL}"
